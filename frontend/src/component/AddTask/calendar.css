@@ -1,0 +1,13 @@
+.react-calendar{
+    background-color: #252423;
+    border: none;
+}
+
+.react-calendar button:hover{
+    background-color: #3a3836 !important;
+}
+
+.react-calendar__tile--now
+ {
+    background: #0078d4;
+}

@@ -1,0 +1,7 @@
+# Enforce consistent line endings
+* text=auto
+*.json text
+*.js text
+*.jsx text
+*.css text
+*.html text
