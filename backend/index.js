@@ -13,7 +13,7 @@ const port = process.env.PORT || 3000;
 
 // Middleware (to use middleware we use 'app.use()' )
 app.use(cors({
-    origin: 'http://localhost:5173', //frontend url
+    origin: 'https://todo-glccaocsi-himanshu-negis-projects.vercel.app', //frontend url
     credentials: true //Allow cookies
 }));
 app.use(cookieParser()); //parse cookies.
